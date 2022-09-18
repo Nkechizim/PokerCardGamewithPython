@@ -1,0 +1,41 @@
+from datetime import datetime
+
+today = datetime.today()
+
+print(today.strftime("%m"))
+print(today.strftime("%m %d"))
+print(today.strftime("%m-%d-%Y"))
+print(today.strftime("%m/%d/%Y"))
+print(today.strftime("%m/%d/%y"))
+print(today.strftime("%d/%b/%y"))
+print(today.strftime("%d/%b/%y %a"))
+print(today.strftime("%d/%b/%Y %A"))
+
+print()
+
+today2 = datetime(2000, 11, 17, 6, 0, 0)
+# print(today2.strftime("%d/%b/%y %a"))
+# print(today2.strftime("%d/%B/%Y %A"))
+# print(today2.strftime("%B %d, %Y"))
+# print(today2.strftime("%a %A"))
+# print(today2.strftime("%b %B"))
+# print(today2.strftime("%c %C"))
+# print(today2.strftime("%d %D"))
+# print(today2.strftime("%e"))
+# print(today2.strftime("%f %F"))
+# print(today2.strftime("%g %G"))
+# print(today2.strftime("%h %H"))
+# print(today2.strftime("%j"))
+# print(today2.strftime("%k"))
+# print(today2.strftime("%l"))
+# print(today2.strftime("%m %M"))
+# print(today2.strftime("%p"))
+print(today2.strftime("%r %R"))
+# print(today2.strftime("%s %S"))
+# print(today2.strftime("%U"))
+# print(today2.strftime("%v %V"))
+# print(today2.strftime("%W"))
+# print(today2.strftime("%x %X"))
+# print(today2.strftime("%y %Y"))
+
+

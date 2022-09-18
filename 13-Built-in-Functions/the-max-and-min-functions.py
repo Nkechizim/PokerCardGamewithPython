@@ -1,0 +1,6 @@
+print(max([3, 5, 7]))
+print(min([3, 5, 7]))
+print(max(["d", "F", "B"]))
+print(min(["d", "F", "B"]))
+print(max(3, 5, 7, 9))
+print(min(3, 5, 7, 9))
